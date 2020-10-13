@@ -1,2 +1,2 @@
 # LinuxConfig
-My configuration Linux, about Vim, Polybar, i3, etc
+My configuration Linux, about Polybar, i3, etc
