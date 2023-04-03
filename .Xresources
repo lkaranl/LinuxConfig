@@ -1,28 +1,27 @@
-! special colors
-urxvt*skipBuiltinGlyphs: true
-*.foreground:  #bfc3bc
-*.background:  #2d3335
-*.cursorColor:  #bfc3bc
+! colors
+*.foreground: #bfc3bc
+*.background: #2d3335
+*.cursorColor: #bfc3bc
+URxvt*transparent: true
+URxvt*shading: 10
 
-URxvt*scrollBar:         false
-URxvt*scrollBar_right:   false
+! scrollbar
+URxvt*scrollBar: false
 
-URxvt*transparent:	 true
-URxvt*shading:       10
-
+! font settings
 URxvt.font: xft:Source Code Pro Medium:size=15,xft:DejaVu Sans:size=9
 URxvt.letterSpace: 0
+*antialias: true
+*autohint: true
 
-*antialias:  true
-*autohint:   true
-
+! extensions
 URxvt.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
-URxvt.keysym.M-u:     perl:url-select:select_next
-URxvt.url-launcher:   /usr/bin/firefox
-URxvt.underlineURLs:  True
-
-URxvt.keysym.M-Escape:perl:keyboard-select:activate
-URxvt.keysym.Control-Shift-V:     perl:pasta:paste
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.underlineURLs: True
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V: perl:pasta:paste
 URxvt.clipboard.autocopy: true
 
-URxvt*font:   xft:Inconsolata for Powerline:size=11
+! powerline font
+URxvt*font: xft:Inconsolata for Powerline:size=11
